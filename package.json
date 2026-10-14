@@ -1,0 +1,24 @@
+{
+  "name": "nethub",
+  "version": "0.1.0",
+  "description": "NETHUB — V0 Isolated Browser — Ghost Protocol — Zero Tracking",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "author": "V0 <https://github.com/VZero911>",
+  "license": "SEE LICENSE",
+  "keywords": [
+    "browser",
+    "privacy",
+    "electron",
+    "ghost-protocol",
+    "zero-tracking",
+    "alice",
+    "v0"
+  ],
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}

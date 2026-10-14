@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#040208"/>
+      <stop offset="100%" stop-color="#0a0816"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5b3dff"/>
+      <stop offset="50%" stop-color="#00ccaa"/>
+      <stop offset="100%" stop-color="#ff6600"/>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6600"/>
+      <stop offset="50%" stop-color="#5b3dff"/>
+      <stop offset="100%" stop-color="#00ccaa"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="180" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="598" height="178" rx="15" fill="none" stroke="url(#glow)" stroke-width="1" opacity="0.4"/>
+  <!-- Globe icon -->
+  <circle cx="80" cy="90" r="30" fill="none" stroke="url(#glow)" stroke-width="2"/>
+  <path d="M50 90h60M80 60v60" stroke="url(#glow)" stroke-width="1" opacity="0.4"/>
+  <path d="M56 76c6 0 8 2 24 2s18-2 24-2" fill="none" stroke="#00ccaa" stroke-width="1.2"/>
+  <path d="M56 104c6 0 8-2 24-2s18 2 24 2" fill="none" stroke="#00ccaa" stroke-width="1.2"/>
+  <circle cx="80" cy="90" r="6" fill="#5b3dff" opacity="0.6"/>
+  <circle cx="80" cy="90" r="3" fill="#00ccaa"/>
+  <!-- Title -->
+  <text x="140" y="82" font-family="monospace" font-size="48" font-weight="bold" fill="url(#text-grad)" letter-spacing="8">NETHUB</text>
+  <!-- Subtitle -->
+  <text x="140" y="108" font-family="monospace" font-size="11" fill="#454565" letter-spacing="3">GHOST PROTOCOL BROWSER</text>
+  <!-- Tags -->
+  <rect x="140" y="120" width="90" height="18" rx="3" fill="#ff660015" stroke="#ff660030" stroke-width="0.5"/>
+  <text x="185" y="133" font-family="monospace" font-size="8" fill="#ff6600" text-anchor="middle" letter-spacing="1">ZERO TRACK</text>
+  <rect x="240" y="120" width="100" height="18" rx="3" fill="#5b3dff15" stroke="#5b3dff30" stroke-width="0.5"/>
+  <text x="290" y="133" font-family="monospace" font-size="8" fill="#5b3dff" text-anchor="middle" letter-spacing="1">GHOST PROTO</text>
+  <rect x="350" y="120" width="80" height="18" rx="3" fill="#00ccaa15" stroke="#00ccaa30" stroke-width="0.5"/>
+  <text x="390" y="133" font-family="monospace" font-size="8" fill="#00ccaa" text-anchor="middle" letter-spacing="1">ALICE V0</text>
+  <rect x="440" y="120" width="100" height="18" rx="3" fill="#ff336615" stroke="#ff336630" stroke-width="0.5"/>
+  <text x="490" y="133" font-family="monospace" font-size="8" fill="#ff3366" text-anchor="middle" letter-spacing="1">ZERO TELEMETRY</text>
+  <!-- V0 watermark -->
+  <text x="570" y="168" font-family="monospace" font-size="8" fill="#45456530" text-anchor="end" letter-spacing="2">V0</text>
+</svg>
